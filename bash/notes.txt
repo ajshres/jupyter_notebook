@@ -1,0 +1,112 @@
+curl -s
+wc
+
+sed -r 's/\s+/\n/g'
+
+grep -i
+
+wc
+
+gunzip
+
+# check if any text is appended to the file
+tail -f
+
+# calendar from terminal
+curl wttr.in/tehran
+
+echo `date +'%F'`.txt
+xargs
+# get head commit id from git log
+git log | head -n1 | sed -r 's/\s+/\n/g' | sed -n 2p
+git log | head -n1 | sed -r 's/\s+/\n/g' | sed -n -e '2{p;q}'
+git log | head -n1 | awk '{print $2}'
+
+git log | head -n1 | sed -r 's/\s+/\n/g' | sed -n -e '2{p;q}' | head -c 10
+
+# wrapping text in a line
+head -n250 mobydick.txt | fold -sw 30
+
+
+
+http://www.gutenberg.org/files/98/98-0.txt
+
+# read next line and put its value into the variable LINE
+read LINE
+
+watch
+
+# following variable is used by bash or other terminals to search for system wide scripts to run
+# .bashrc, .profiles, .source
+# multiple paths are separted with colon
+export $PATH
+
+
+# put any scripts in .bashrc, it will run every time you open a terminal
+
+
+
+# PERMISSIONS
+
+- three kinds and three categories
+- u - users
+- g - group
+- o - others
+
+- r - read
+- w - write
+- x - execute
+
+# chmod
+# 4 for write
+# 2 for read
+# 1 for execute
+
+# examples
+
+# to grant write permission to group. + for grant, - to revoke permission
+chmod g+w test.txt
+
+
+
+# Exit Codes
+
+# echo $?
+
+# test if file exist
+test -f cool.txt
+
+# if else statement
+
+if test -f cool.txt; then echo true; else echo false; fi
+
+
+# Job Control
+# watch -n1 date
+
+# Ctrl + C # Terminates a process in the foreground
+# Ctrl + Z # Put a process in the background (from foreground)
+# fg # Put back the process from the background to foreground
+
+# jobs # to see the process in the background
+# fg %1 to put first job from background to foreground
+
+# kill %2
+# kill -9 %2 # force kill # use `man kill` # man signal
+
+# pgrep # command to search all the process with name
+# pgrep watch
+
+# pkill watch # kill with name
+# kill {ID}
+
+# Example found
+# trap 'kill $!' SIGTERM SIGKILL
+
+
+# apt-get install screen
+
+
+
+
+

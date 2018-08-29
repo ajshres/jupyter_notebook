@@ -1,0 +1,4 @@
+total 8
+-rw-rw-r-- 1 lt84 lt84 0 Jun 11 10:58 hello.txt
+total 12
+-rw-rw-r-- 1 lt84 lt84 56 Jun 11 10:58 hello.txt
